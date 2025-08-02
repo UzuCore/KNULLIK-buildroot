@@ -245,7 +245,7 @@ endif
 
 # timezone and locale may affect build output
 ifeq ($(BR2_REPRODUCIBLE),y)
-export TZ = UTC
+export TZ = Asia/Seoul
 export LANG = C
 export LC_ALL = C
 endif
